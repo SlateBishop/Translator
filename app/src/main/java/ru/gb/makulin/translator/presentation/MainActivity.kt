@@ -1,7 +1,8 @@
-package ru.gb.makulin.translator
+package ru.gb.makulin.translator.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ru.gb.makulin.translator.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
