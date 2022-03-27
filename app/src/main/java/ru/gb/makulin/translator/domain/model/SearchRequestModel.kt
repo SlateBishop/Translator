@@ -4,7 +4,6 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class DataModel(
-    val inputWord: String,
-    val meanings: List<MeaningsModel>
+data class SearchRequestModel(
+    val word: String
 ) : Parcelable
